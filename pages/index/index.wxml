@@ -1,16 +1,11 @@
-
-  <view class="container">
-    <view class="h1">Join us in the fight against air pollution!</view>
-    <view class="h2">Already have an account?</view>
-    <form bindsubmit="formSubmit" bindreset="formReset">
-    <form id="form" method="post" name="myform">
-      <label>Device ID</label>
-        <input type="text" name="username" id="username"/>
-        <input type="button" value="Login" id="submit" onclick="validate()"/>
-    </form>
-    </form>
+<view class="container">
+  <view class="h1">Join us in the fight against air pollution!</view>
+  <view class="h2">Enter the Device ID to Continue</view>
+  <form bindsubmit="formSubmit" bindreset="formReset">
+  <form id="form" method="post" name="myform">
+    <label>Device ID</label>
+    <input wx:key="{{deviceId}}" type="text" name="deviceId" id="deviceId" value="{{orb.deviceId}}" />
+    <button bindtap="showData" id="showData">View Data</button>
+  </form>
+  </form>
 </view>
-
- 
-
-
