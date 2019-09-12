@@ -9,17 +9,15 @@
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
-		"autoAudits": false,
-		"coverView": true
+		"autoAudits": false
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.8.1",
-	"appid": "wxca05c2a74ed589fa",
-	"projectname": "OrbMate",
+	"libVersion": "2.8.2",
+	"appid": "touristappid",
+	"projectname": "miniprogram-test-4",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
-	"isGameTourist": false,
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"condition": {

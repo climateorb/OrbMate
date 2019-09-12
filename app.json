@@ -1,12 +1,13 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/login/login",
+    "pages/apiData/apiData"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarBackgroundColor": "#eee",
+    "navigationBarTitleText": "ClimateOrb",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json"
